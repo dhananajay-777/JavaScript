@@ -1,0 +1,10 @@
+console.log("hello world");
+var a="hello";
+console.log(a);
+b=10;
+a=10;
+console.log(a+b);
+c=true;
+console.log(c);
+console.log(a+b+c);
+document.getElementById("demo").innerHTML="hello world";

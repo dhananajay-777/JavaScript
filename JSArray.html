@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var a=["VW","Ford","Tata"];
+        var b=[];
+        var c=[
+        "VW",
+        "Ford",
+        "Tata"
+        ];
+        b[0]="BMW";
+        b[1]="Remac";   
+         console.log(b);
+         console.log(b.length);
+         var a1=[101,108,1000,2200,2700,57,0,-1];
+         console.log(a1.sort());
+
+        var points = [40, 100, 1, 5, 25, 10];
+        points.sort(function(a, b){return a-b});
+        document.getElementById("demo").innerHTML = points;
+    </script>
+</body>
+</html>

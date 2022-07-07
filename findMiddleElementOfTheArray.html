@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const car = ["BMW","Audi","Benz","TATA","Mahindra"];
+l = car.length;
+console.log(l);
+mid = l / 2;
+console.log(mid);
+  if(l%2 != 0)
+  {
+  //document.write(car[parseInt(mid)]);
+    console.log(car[parseInt(mid)]); //Indexing is 2
+  }
+  else{
+  console.log(car[mid-1]);
+ //document.write(car[mid-1])
+  }
+  console.log(car.indexOf("BMW"));
+  console.log(car.includes("MG"));
+  car.push("Rolls Roys");
+  console.log(car);
+  car.pop();
+  console.log(car);
+  car.reverse();
+  console.log(car);
+</script>
+</body>
+</html>
